@@ -1,0 +1,29 @@
+
+
+.h1class
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: normal;
+}
+
+.pClass 
+{
+    font-size: 16px;
+ 
+    background-color:unset;
+    margin: 20px;
+}
+.h2class
+{   
+    font-size: 30px;
+}
+#cpageInfo{
+    text-align: justify;
+}
+
+.liste
+{
+    text-align: left;
+}

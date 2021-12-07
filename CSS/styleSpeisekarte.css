@@ -1,0 +1,71 @@
+/*Alles fett und Rahmen vereinen*/
+table{
+    text-align: left;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+/*Große Ueberschrift*/
+table caption{
+    font-size: 200%;
+}
+/*kleinerer Text unter Ueberschrift*/
+table caption p{
+    font-weight: normal;
+    font-size: 66%;
+    margin-top: 0px;   
+}
+/*Kopfelemente Linksbuendig und groeßer*/
+table thead{
+    text-align:left;
+    font-size: 120%;
+}
+/*Suchzeile im Tabellenkopf*/
+.cl_sucheGericht{
+    text-align:left;
+    font-size: 75%;
+    border: 1px solid black;
+}
+.cl_sucheGericht:focus{
+    outline: 1px solid black;
+}
+
+/*Unterer Rahmen*/
+table thead tr{border-bottom:solid 3px;}
+table tr td{border-bottom:solid 1px;}
+
+/*Innere Ueberschrift ohne Absatz*/
+table tr td h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*innerer Text normal dick und ohne Absatz*/
+table tr td p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+/*Responsive Design*/
+table{
+ width: 100%;
+}
+
+@media (min-width: 1360px){    
+    table{       
+        width: 1310px;
+        margin-left:auto;
+        margin-right:auto;        
+    }
+}
+
+/*Vegetarische gerichte gruen markiert*/
+.vegetarisch em{color:green;}
+
+/*Getraenketabelle formatieren*/
+table #getraenkespaltengruppe #nummer{width: 32px;}
+table #getraenkespaltengruppe #inhalt{width: 96px;}
+table #getraenkespaltengruppe .preis{width: 96px;}
+
+/*Absatz unter Pasta Tabelle*/
+table{margin-bottom: 50px;}
+

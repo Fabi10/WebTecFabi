@@ -1,0 +1,45 @@
+
+#input_name{
+    width: 50%;
+}
+#input_betreff{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+#input_nachricht{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+/* Der :focus-Selektor ist eine dynamische Pseudoklasse und kennzeichnet Verweise, 
+die durch die Tabulatortaste aktiviert werden. */
+.fields:focus {
+    outline: 1px solid black;
+}
+/* Gaestebuch Kommentare */
+/* Alle Elemente der class .kommentar, die in article liegen, werden angesprochen */
+article.kommentar, hr.KommentarTrennung{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+/* Nachfahrenselektor: 
+Alle h4 Elemente eines Elementes article.kommentar erhalten die folgende Eigenschaft. */
+article.kommentar h4{
+    font-size: 25px;
+    font-weight: normal;
+}
+article.kommentar h5{
+    text-align: left;
+    font-size: 22px;
+    margin: 5px 0px;
+}
+article.kommentar p{
+    font-size: 18px;
+    text-align: left;
+    margin: 5px 0px 20px 0px;
+}
+#VielenDank{
+    margin-bottom: 50px;
+}

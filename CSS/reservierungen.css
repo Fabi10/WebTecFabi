@@ -1,0 +1,72 @@
+
+/* Überschrift*/ 
+#res_header{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    /* opacity: 0.8; */
+}
+
+
+.inhalte{
+    background-color: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+
+/* 3 Haupt-Container */
+.res_box{    
+    flex: 1;   
+    min-width: 22rem; 
+    padding: 20px; 
+    margin: 10px; 
+    
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    /* opacity: 0.75; */       
+}
+/* Texte in p-tag*/
+.res_box p{
+    color: black;
+    font-size: 20px; 
+}
+
+/*rechter Kasten (Veranstaltungen)*/
+p.res_text{ 
+    text-align:justify;      
+}
+
+/* Überschriften d. Container  */
+.res_h{
+    font-size: 26px;
+}
+
+/* Container für Einträge des Formulars für online Reservierung */
+.res_inputs{
+    margin: 25px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/* Label + Input Felder des Formulars */
+.fields{
+    float: right;
+}
+.fields:focus {
+    outline: 1px solid black;
+}
+
+
+/* Zurück-Link */
+#res_back{
+    text-align: left;
+    color: black;
+}
+
+#Lname, #Lmail, #Ldate, #Ltime, #Lnumber, #Lbaby{
+    font-size: 20px;
+}
